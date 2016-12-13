@@ -46,4 +46,4 @@ for idx, link in enumerate(links):
 END = time.time()
 DURATION = ((END - START) / 3600, ((END - START) % 3600) / 60, (((END - START) % 3600) % 60))
 
-print 'All downloads completed in %02i:%02i:%02i' % (DURATION[0], DURATION[1], DURATION[2])    
+print 'All downloads completed in %02i:%02i:%02i' % (DURATION[0], DURATION[1], DURATION[2])
